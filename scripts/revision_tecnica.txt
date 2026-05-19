@@ -1,0 +1,32 @@
+# =============================================================
+# VENTAS-7: Revision tecnica del codigo
+# Revisor: P3 - Braian_Martinez_3
+# Descripcion: Revision de calidad y buenas practicas del script de analisis
+# =============================================================
+
+REVISION TECNICA - analisis_ventas.py
+======================================
+
+1. ESTRUCTURA DEL CODIGO
+   - El script sigue una estructura logica y ordenada
+   - Las importaciones estan al inicio del archivo
+   - El codigo es reproducible en Google Colab sin rutas absolutas
+
+2. CALIDAD DE DATOS
+   - Se verifica la carga correcta del dataset con df.info()
+   - Se identifican valores maximos y minimos para detectar anomalias
+   - El dataset cuenta con 366 registros diarios del anio 2024
+
+3. METRICAS CALCULADAS
+   - Total de ventas: calculado correctamente con sum()
+   - Promedio de ventas: calculado correctamente con mean()
+   - Agrupamiento por fecha: correcto uso de groupby()
+
+4. VISUALIZACION
+   - El grafico representa correctamente la evolucion temporal
+   - Se guarda correctamente en /resultados/grafico_ventas.png
+   - Ejes correctamente etiquetados
+
+5. OBSERVACIONES
+   - Se recomienda agregar validacion de valores nulos antes del analisis
+   - El script cumple con los requerimientos del TP
