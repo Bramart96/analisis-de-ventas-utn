@@ -9,13 +9,13 @@
 | P3 - Revisor QA | Braian_Martinez_3 | Revision tecnica y documentacion |
 
 ## Escenario
-Escenario B - Analisis de Ventas de una Pequena Empresa
-Analisis estadistico de un dataset de ventas comerciales del anio 2024.
+Escenario B - Analisis de Ventas de una Pequeña Empresa
+Analisis estadistico de un dataset de ventas comerciales del año 2024.
 
 ## Dataset
 - Fuente: sales_sample_2024.csv
 - Formato: CSV
-- Registros: 366 registros diarios del anio 2024
+- Registros: 366 registros diarios del año 2024
 - Columnas: id, sales_date, sales_amount
 
 ## Estructura del Repositorio
